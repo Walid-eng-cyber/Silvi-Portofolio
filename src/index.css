@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Stops iOS Safari inflating type when the device is turned sideways. */
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-white text-black antialiased;
+    /* DM Sans is a variable font; opsz 14 matches the optical size set in Figma. */
+    font-variation-settings: 'opsz' 14;
+  }
+
+  /* Keyboard focus stays visible everywhere without adding a hover outline. */
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-black;
+  }
+
+  .bg-black :focus-visible {
+    @apply outline-white;
+  }
+
+  img {
+    @apply block;
+  }
+
+  /*
+    The navbar is sticky and 60px tall, so an anchor target aligned to the top
+    of the viewport lands underneath it. Every scroll target clears it by the
+    nav height plus 16px of breathing room.
+  */
+  [id] {
+    scroll-margin-top: 76px;
+  }
+
+  /*
+    A single long word — the contact email, a project title — must never be the
+    thing that makes the page scroll sideways.
+  */
+  h1,
+  h2,
+  h3,
+  p,
+  li,
+  dd {
+    overflow-wrap: break-word;
+  }
+}
