@@ -1,4 +1,25 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-label="Silvi wordmark">
-  <rect width="640" height="180" fill="none"/>
-  <text x="20" y="122" font-family="Times New Roman, serif" font-size="110" letter-spacing="4" fill="#111111">SILVI</text>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="590" height="351.0987" viewBox="0 0 590 351.0987" role="img" aria-label="SILVI">
+  <!--
+    Hand-built approximation of the SILVI wordmark (Figma node 0:18). The
+    original vector could not be exported in this environment (network
+    egress to figma.com is blocked), so this reconstructs the bold
+    geometric block letterforms from the design screenshot rather than
+    tracing the designer's exact bezier paths. Replace with the real
+    export when available — see README in this folder.
+  -->
+  <!-- S -->
+  <path d="M0,0 L150,0 L150,56 L56,56 L56,107 L150,107 L150,270 L0,270 L0,214 L94,214 L94,163 L0,163 Z" />
+
+  <!-- i -->
+  <rect x="160" y="0" width="56" height="270" />
+
+  <!-- L -->
+  <path d="M226,0 L282,0 L282,295.0987 L460,295.0987 L460,351.0987 L226,351.0987 Z" />
+
+  <!-- V -->
+  <path d="M282,0 L338,0 L403,270 L347,270 Z" />
+  <path d="M460,0 L516,0 L459,270 L403,270 Z" />
+
+  <!-- i -->
+  <rect x="534" y="0" width="56" height="270" />
 </svg>

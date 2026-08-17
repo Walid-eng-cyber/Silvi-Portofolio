@@ -340,7 +340,6 @@ export const homeGrid: {
     {
       kind: 'image',
       caption: 'Identity \u2014 environmental',
-      to: '/work/nature-inspired-poster',
       image: {
         src: assets.homeBuilding,
         alt: 'SILVI wordmark as a large building wrap on a city facade',
