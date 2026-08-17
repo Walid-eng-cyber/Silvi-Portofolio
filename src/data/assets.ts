@@ -12,7 +12,7 @@
  * No other file in the project references an asset path.
  */
 
-const USE_LOCAL_ASSETS = false;
+const USE_LOCAL_ASSETS = true;
 
 /** Figma node ids, so every export can be traced back to the source design. */
 export const FIGMA_NODES = {
