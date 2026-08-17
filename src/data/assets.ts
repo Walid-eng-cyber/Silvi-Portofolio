@@ -115,7 +115,7 @@ const REMOTE: Record<AssetKey, string> = {
 };
 
 const LOCAL_PATHS: Record<AssetKey, string> = {
-  wordmark: '/images/silvi-wordmark.svg',
+  wordmark: '/images/SILVI.svg',
   homePosters: '/images/home-posters.png',
   homeBuilding: '/images/home-building.png',
   homeGymnastics: '/images/home-gymnastics.png',

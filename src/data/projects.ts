@@ -309,9 +309,9 @@ export function getAdjacentProjects(slug: string) {
 }
 
 /**
- * Two home-grid images have no detail frame in the file: the SILVI building
- * wrap and the A-List Festival key visual. They render as plain images rather
- * than links until frames for them exist.
+ * The A-List Festival key visual has no detail frame in the file, so it
+ * renders as a plain image until a frame exists. The SILVI building wrap
+ * shares its artwork with the Nature-Inspired Poster project and links there.
  */
 export type GridEntry =
   | { kind: 'project'; slug: string }
@@ -340,6 +340,7 @@ export const homeGrid: {
     {
       kind: 'image',
       caption: 'Identity \u2014 environmental',
+      to: '/work/nature-inspired-poster',
       image: {
         src: assets.homeBuilding,
         alt: 'SILVI wordmark as a large building wrap on a city facade',
