@@ -184,10 +184,10 @@ export const projects: Project[] = [
       objectPosition: '50% 34%',
     },
     cover: {
-      src: assets.homeCetaphil,
-      alt: 'Cetaphil campaign imagery and packaging',
+      src: assets.cetaphilHero,
+      alt: 'Cetasphere campaign key visual',
       ratio: '551 / 650',
-      objectPosition: '52% 35%',
+      objectPosition: '50% 34%',
     },
     media: [
       {
