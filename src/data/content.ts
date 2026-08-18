@@ -32,7 +32,7 @@ export const contact = {
     { label: 'Instagram', href: 'https://www.instagram.com/nomilkhouse/' },
     {
       label: 'Linkedin',
-      href: 'https://linkedin.com/in/silvia-castillo-angulo-56a757172',
+      href: 'https://www.linkedin.com/in/silvi-c-angulo-56a757172/',
     },
     {
       label: 'castilloangulosilvia@gmail.com',
